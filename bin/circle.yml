@@ -1,7 +1,0 @@
-machine:
-  maven:
-    version: 3.0.5
-
-test:
-  override:
-    - mvn clean package -Denforcer.skip=true
